@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Laboriatoria Codigos Fuera de Serie!!!</title>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src='spectrum.js'></script>
+    <link rel='stylesheet' href='spectrum.css' />
+  </head>
+  <body>
+    <h1>Articulos</h1>
+    <hr>
+          <p >
+          <ul id="textoEnviar"  >
+
+          </ul>
+      </p>
+    <hr>
+    <h4>Crear articulo</h4>
+        <table>
+         <tr>
+            <td><input type="button" value="Texto Grande" onClick="hacerTextoGrande()"></td>
+            <td><input type="button" value="Texto Mediano" onClick="hacerTextoMediano()"></td>
+            <td><input type="button" value="Texto Chico" onClick="hacerTextoChico()"></td>
+            <td><input type="button" value="Color de Texto" onClick="colorLetras()"></td>
+            <td><input type="button" value="Color de Fondo" onClick="colorFondo()"></td>
+
+            <td><input type="button" value="Alinear Izquierda" onClick="alinearIzquierda()"></td>
+            <td><input type="button" value="Centrar" onClick="centrar()"></td>
+            <td><input type="button" value="Alinear Derecha" onClick="alinearDerecha()"></td>
+          </tr>
+        </table>
+          <p><textarea rows="4" cols="50" name="comment" form="usrform" id="textoEscrito" oninput="mostrar()">
+          </textarea></p>
+            <hr>
+            <h3>Contenido</h3>
+          <p id="previoTexto"></p>
+          <input type="submit" onclick="enviar()" onclick="clonarTexto()">
+          <input type="button" value="Borrar" onclick="borrar()">
+
+          <input type="button" value="Agregar una Lista" onclick="agregarLi()">
+          <ul id="lista">
+
+
+        </ul>
+
+      <script src="blog.js"></script
+  </body>
+</html>
